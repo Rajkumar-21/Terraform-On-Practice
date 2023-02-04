@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "Raj-RG" {
-  name = Raj-RG-1
+  name = Raj-RG-test
   location = eastus
 }
